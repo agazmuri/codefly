@@ -1,1 +1,18 @@
-<p>ingreso-clientes works!</p>
+<div class="container">
+    <div>
+        <table border="1">
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Correo</th>
+                <th>Móvil</th>
+                <th>Teléfono</th>
+            </tr>
+            <tr *ngFor="let cli of valores">
+                <td>{{cli}}</td>
+            </tr>
+        </table>
+    </div>
+
+</div>
